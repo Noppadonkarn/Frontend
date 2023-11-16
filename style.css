@@ -1,0 +1,176 @@
+@font-face {
+  font-family: fonts;
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-family: fonts;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  box-shadow: 22px 24px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 50px;
+  height: 600px;
+  width: 800px;
+}
+
+.result-box{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  width: 400px;
+  height: 600px;
+  background-image: linear-gradient(180deg, rgba(103,67,247,1) 44%, rgba(52,51,191,1) 100%);;
+}
+
+.head-result{
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+.score{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: linear-gradient(0deg, rgba(103,67,247,1) 44%, rgba(52,51,191,1) 100%);;
+}
+
+.mian-score{
+  font-size: 75px;
+}
+
+.total-score{
+  font-size: 20px;
+}
+
+.footer-score{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-score{
+  font-size: 40px;
+  padding-bottom: 20px;;
+}
+
+.description-score{
+  text-align: center;
+  width: 220px;
+}
+
+.summary-box{
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-left: 35px;
+  gap: 15px;
+  width: 370px;
+}
+
+.head-summary{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.reaction-box{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255,0,0,0.1);
+  border-radius: 15px;
+}
+
+.memory-box{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255,255,0,0.1);
+  border-radius: 15px;
+}
+
+.verbal-box{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0,255,0,0.1);
+  border-radius: 15px;
+}
+
+.visual-box{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0,0,255,0.1);
+  border-radius: 15px;
+}
+
+.button-continue{
+  margin-top: 30px;
+  font-size: 20px;
+  color: white;
+  height: 65px;
+  border-radius: 25px;
+  background-color: #303B58;
+  border: 0.5px solid #303B58;
+}
+
+.box-1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: red;
+}
+
+.box-2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffeb3b;
+}
+
+.box-3{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: green;
+}
+
+.box-4{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: blue;
+}
